@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/><meta name="theme-color" content="#10191f"/><link rel="icon" href="data:,"/><title>Night Dispatch</title>  <script type="module" crossorigin src="./assets/index-DWF6Etrt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-B4o26Tz5.css">
+</head>
+<body>
+<main id="game" aria-label="Night Dispatch game"></main>
+<div id="hud">
+  <section id="mission"><span class="mission-label">Night Dispatch</span><strong id="objective">Pick up your car</strong><span id="objective-detail">The last deliveries before dawn.</span><div id="progress" aria-label="Delivery progress"><i></i><i></i><i></i><i></i></div></section>
+  <div id="district"><span>Mercury District</span><strong id="clock">02:15</strong><span class="weather">Light rain</span></div>
+  <canvas id="map" width="220" height="220" aria-label="Map and delivery destination"></canvas>
+  <div id="dashboard"><strong id="speed">0</strong><span>km/h</span><div class="speed-track"><i id="speed-fill"></i></div></div>
+  <div id="prompt"></div><div id="notice" role="status"></div>
+  <div id="controls">WASD move · Mouse look · E enter / interact · Space brake · R restart</div>
+  <button id="sound" aria-label="Toggle sound" title="Toggle sound">Sound off</button>
+</div>
+<div id="intro">
+  <div class="intro-content"><p>Rain never sleeps.</p><h1>Night<br/>Dispatch</h1><p class="description">Four stops. One city. The quiet hours belong to you.</p><button id="start">Start your shift <span>↗</span></button><small>WASD to move · Mouse to look · E to enter your car</small></div>
+</div>
+<div id="ending" hidden><div><p>The city can rest.</p><h2>Shift complete.</h2><p id="end-detail"></p><button id="restart">One more night ↗</button></div></div>
+</body></html>
